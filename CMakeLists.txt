@@ -10,6 +10,6 @@ set(CMAKE_CXX_STANDARD 17)
 # Include external dependencies, located in the folder lib (imported as a git submodule)
 #add_subdirectory(lib)
 
-# Indicate that the library vector uses the header files within the folder include.
+# Indicate that the library math uses the header files within the folder include.
 add_subdirectory(math)
 add_subdirectory(app)

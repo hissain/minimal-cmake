@@ -7,10 +7,10 @@ if [ "$1" = "build" ]; then
 fi
 
 # Check if executable exists
-if [ -f ./build/app/app ]; then
+if [ -f ./build/app/app2 ]; then
     # Run the executable
-    ./build/app/app
+    ./build/app/app2
 else
-    echo "Executable 'app'  not found. Make sure your build was successful."
+    echo "Executable 'app2'  not found. Make sure your build was successful."
 fi
 
