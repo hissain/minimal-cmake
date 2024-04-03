@@ -1,5 +1,5 @@
 # At LEAST 3.9 but newer is better
-cmake_minimum_required(VERSION 3.9)
+cmake_minimum_required(VERSION 3.11)
 
 # Assign a name to the global project
 project(dsp)
@@ -13,3 +13,5 @@ set(CMAKE_CXX_STANDARD 17)
 # Indicate that the library math uses the header files within the folder include.
 add_subdirectory(math)
 add_subdirectory(app)
+
+

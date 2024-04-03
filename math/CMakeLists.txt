@@ -1,3 +1,6 @@
+# At LEAST 3.9 but newer is better
+cmake_minimum_required(VERSION 3.11)
+
 # Assign a name to this project
 project(math)
 
